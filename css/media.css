@@ -1,0 +1,251 @@
+
+@media (max-width: 991px){
+    .top-left ul {
+        display: block;
+    }
+    .top-left ul li {
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+   .top-right {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .fixed header {
+       position: static;
+   }
+   .fixed .slider {
+       padding-top: 0;
+   }
+   .navbar-nav li {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .menu-area nav {
+       padding-top: 20px;
+       padding-bottom: 20px;
+   }
+
+   .slider-content h2 {
+       font-size: 55px;
+   }
+   .slider-content .para-1{
+       font-size: 20px;
+   }
+   .slider-content .para-2 {
+       margin-bottom: 50px;
+       font-size: 14px;
+   }
+   .abt-img img {
+       top: 85px;
+       left: 35px;
+   }
+}
+
+@media (max-width: 768px) {
+   
+    .do-img img {
+        max-width: 100%;
+        margin-bottom: -20%;
+    }
+    .abt-img img {
+        top: 150px;
+        max-width: 90%;
+    }
+    .about-content .main-content {
+        top: 60%;
+    }
+    .banner-content .main-btn{
+        font-size: 16px;
+        padding: 20px 25px;
+    }
+    .work-nav ul li{
+        font-size: 10px;
+    }
+    ul.nav-ul-item li a {
+        padding: 20px;
+    }
+    .team-content .bio {
+        font-size: 15px;
+    }
+    .members img {
+        margin-bottom: 20px;
+    }
+   
+    .tab-content {
+        padding-top: 30px;
+    }
+    .footer-social ul li a{
+        padding-right: 15px;
+    }
+    .widget-logo {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+    address {
+        font-size: 12px;
+    }
+    .widget .tweet-feed li a{
+        font-size: 12px;
+    }
+    .widget-contact p {
+        font-size: 12px;
+    }
+    .sub-form input{
+        margin-bottom: 15px;
+    }
+    footer{
+        padding: 15px 0;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .toTop{
+        right: 90px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .top-content{
+        display: none;
+    }
+    p{
+        font-size: 11px;
+    }
+    .menu-area nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .top-left ul li{
+        font-size: 10px;
+    }
+    .fixed header {
+        position: static;
+    }
+    .fixed .slider {
+        padding-top: 0;
+    }
+    .slider-content {
+        display: block;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slider-content h2{
+        font-size: 25px;
+    }
+    .slider-content .para-1{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .slider-content .para-2{
+        font-size: 10px;
+        margin-bottom: 35px;
+    }
+    .main-btn{
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    .slider-arrow .left-arrow, 
+    .slider-arrow .right-arrow {
+        font-size: 50px;
+    }
+    .we-do-block {
+        text-align: center;
+        position: relative;
+    }
+    .weDoPart .do-bottom-design{
+        margin-left: 46%;
+    }
+    .work-nav ul li {
+        font-size: 11px;
+        text-align: center;
+    }
+    ul.nav-ul-item li a {
+        padding: 15px;
+        font-size: 12px;
+    }
+    .tab-content {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .banner-content .main-btn {
+        font-size: 12px;
+        padding: 15px 20px;
+    }
+    .toTop{
+        right: 45px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    
+    .top-content {
+        display: none;
+    }
+    .top-right ul {
+        padding-left: 0;
+    }
+    .menu-area nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .slider-content .para-2{
+        margin-bottom: 10px;
+    }
+    .main-btn {
+        padding: 9px 10px;
+        font-size: 9px;
+    }
+    div.abt-btn{
+        text-align: center;
+        transform: translateX(-5%);
+    }
+    .work-nav ul li {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:320px) {
+    .top-content{
+        display: none;
+    }
+    .slider-bullet{
+        display: none;
+    }
+    .main-btn {
+        padding: 6px 10px;
+        font-size: 7px;
+    }
+    .slider-content .para-1 {
+        font-size: 8px;
+    }
+    .slider-content h2{
+        font-size: 20px;
+    }
+    .slider-content .para-2 {
+        margin-bottom: 9px;
+        font-size: 8px;
+    }
+    .abt-img img{
+        max-width: 80%;
+        left: 45px;
+    }
+    .work-nav ul li{
+        font-size: 9px;
+        padding: 0 5px 0 5px;
+    }
+    .banner-content .main-btn {
+        font-size: 8px;
+        padding: 13px 15px;
+    }
+}
